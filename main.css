@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*Nav-Bar*/
+.mynav .navbar-brand{
+    font-weight: 900;
+}
+.mynav .navbar-brand img{
+    margin-right: 5px;
+}
+.mynav .navbar-nav a{
+    font-weight: 700;
+}
+/*Profile-Detail*/
+.profile-detail{
+    margin-top: 10rem;
+}
+.profile-detail .profile-image img{
+    max-width: 70%;
+    border-radius: 50%;
+}
+.profile-detail .btn-Pitour{
+    background-color: black;
+    color: aliceblue;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+.profile-detail .btn-Pitour.btn-Pitour:hover{
+    color: gray;
+}
+.profile-detail h2{
+    font-weight: 700;
+}
+.profile-detail h4{
+    font-style: italic;
+    font-weight: 400;
+}
+.info-detail{
+    margin-top: 30px;
+}
+.profile-detail .info-detail p{
+    line-height: 8px;
+}
+.info-detail i{
+    margin-right: 10px;
+}
+/*Socail-Link*/
+.social-link a{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(13, 196, 83);
+    box-shadow: 10px 10px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.social-link .facebook:hover{
+    background-color: #cc1111;
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+.social-link .telegram:hover{
+    background-color: #cc1111;
+
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+.social-link .twitter:hover{
+    background-color: #cc1111;
+  
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+.social-link .discord:hover{
+    background-color: #cc1111;
+
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+.social-link .youtube:hover{
+    background-color: #cc1111;
+
+    color: aliceblue;
+    transform: translateY(-15px);
+}
+/*About me*/
+.about-me h2{
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.about-me p{
+    text-align: justify;
+    font-size: 16px;
+}
+/*Button*/
+.about-me .btn-group{
+    margin-right: 4rem;
+}
+.btn-group button{
+    font-weight: 500;
+}
+/*About-me-Image*/
+.about-me img{
+    margin-top: 3rem;
+    max-width: 70%;
+}
+/*Contact*/
+.contact iframe{
+    margin-top: 8rem;
+}
+.contact h2{
+    margin-top: 8rem;
+    font-weight: 700;
+}
+/*Footer*/
+.footer a{
+    color: black;
+}
+.footer hr{
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+.footer nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer p{
+    margin-top: 10px;
+    font-weight: 500;
+}
